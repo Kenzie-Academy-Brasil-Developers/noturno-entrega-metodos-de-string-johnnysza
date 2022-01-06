@@ -1,14 +1,14 @@
 // Seu código vai aqui;
 
-// function showResults (){
-//     const textContent = document.getElementById("textContent");
-//     textContent.innerHTML = ""
-//     // let texto = document.getElementById("stringInput").value;
-//     const resultado = document.createElement("p");
-//     resultado.innerHTML = texto
+function showResults (){
+    const textContent = document.getElementById("textContent");
+    textContent.innerHTML = ""
+    // let texto = document.getElementById("stringInput").value;
+    const resultado = document.createElement("p");
+    resultado.innerHTML = texto
 
-//     textContent.appendChild(resultado);
-// }
+    textContent.appendChild(resultado);
+}
 
 
 
