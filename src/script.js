@@ -36,7 +36,7 @@ botaoLower.addEventListener("click", (event) => {
 
 function replace(){
     let texto = document.getElementById("stringInput").value;   
-    document.getElementById("textContent").innerHTML = texto.replaceAll(" ", "-");
+    document.getElementById("textContent").innerHTML = texto.replaceAll(".", "").replaceAll("-", "");
 }
 
 const botaoReplace =  document.getElementById("replace");
@@ -59,7 +59,7 @@ botaoConcat.addEventListener("click", (event) => {
 
 function split(){
     let texto = document.getElementById("stringInput").value;   
-    document.getElementById("textContent").innerHTML = texto.split("");
+    document.getElementById("textContent").innerText = texto.split(" ").join("\n");
 }
 
 const botaoSplit =  document.getElementById("split");
